@@ -1,0 +1,22 @@
+{
+  "name": "focus-timer",
+  "productName": "FocusTimer",
+  "version": "1.0.0",
+  "description": "A starter Electron focus timer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "NextWork Learner",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.1",
+    "@electron-forge/maker-squirrel": "^8.0.1",
+    "electron": "^44.7.0"
+  }
+}
